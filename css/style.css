@@ -1,0 +1,113 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  /* padding:0;
+  margin:0; */
+  /* background-color: #f4f4f4; */
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+header{
+  background:#87ceeb;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:50px;
+}
+
+.bttn{
+  float:right;
+  border-left: 20px;
+
+}
+.jumbotron{
+    background: none;
+}
+#in-container{
+  min-height:600px;
+  background:url('../Images/SNP.jpg')no-repeat 0 -50px;
+  text-align: center;
+  color: #ffffff;
+  /* -webkit-filter: blur(4px);
+  filter: blur(4px); */
+}
+
+#in-container h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom:10px;
+}
+
+#in-container p{
+  font-size: 25px;
+}
+
+#worldheritage h1{
+  color: #000080;
+}
+
+#worldheritage h3{
+  color: #808080;
+}
+#preparations h2{
+  color: #000080;
+}
+
+#mountains h3{
+  color:#808080;
+}
+#mountains {
+  display:flex;
+}
+
+.trekking h1{
+  color: #000080;
+}
+
+.trekking h4{
+  color:#000080;
+}
+#tours h3{
+  color:#000080;
+}
+#accomodation-info h3{
+  color: #000080;
+}
+#accomodation{
+    min-height:600px;
+    min-width: 800px;
+    background:url('../Images/accomodation.jpg')no-repeat 0 -50px;
+    background-size: 100% 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.astext {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+
+#footer{
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+footer{
+  background:#87ceeb;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+}
