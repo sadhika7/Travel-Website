@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Tourism site for Visit Nepal 2020">
+  <meta name="keywords" content = "Visit Nepal, Nepal, Tourism, Travel">
+  <meta name="author" content="Swati Adhikari">
+  <title>Visit Nepal</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="css/landing-page.min.css" rel="stylesheet">
+
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><button class="astext" style="color:#ffffff" onclick="location.href='home.html'">Visit Nepal</button></h1>
+        </div>
+      <nav class="navbar static-top">
+        </nav>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="accomodation.html">Accomodation<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trekkingguide.html">Trekking guide</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tours.html">Tours</a>
+          </li>
+          <li class="nav-item" id="contact" style="display:none">
+            <a class="nav-link" href="contactMe.php">Contact Me</a>
+          </li>
+        </ul>
+        <div class="bttn">
+          <button id="signIn" class="btn btn-info">Sign In</button>
+        </div>
+      </div>
+    </nav>
+
+<div id="accomodation">
+</div>
+
+<section id="accomodation-info">
+  <div class="container">
+  <h3>Accomodation in Nepal</h3>
+  <p>If you’re worried about going without a bed in Nepal, don’t be - there are
+    accommodation options literally everywhere. Established tourist centres offer
+    the greatest variety, including Kathmandu, Pokhara and Chitwan, where you’ll find
+    everything from glamorous  5-star to questionably basic.Up in the mountains, including
+    Everest Base Camp and the Annapurna Circuit, you'll mostly find pretty basic teahouses and
+    trekking lodges. Further afar, teahouses, home-stays and guesthouses exist the most off the
+    beaten track areas. </p>
+    <br>
+    <h3>Cost of Accommodation in Nepal</h3>
+    <p>Prices vary dramatically, depending on where you stay and when. Trekking lodges can cost as
+      little as a few dollars a night, while a safari lodge in Chitwan may set you back $250 a night.
+      For the most part, accommodation in Nepal is extremely affordable, and the most common form of accommodation,
+      guest houses, will charge between $5 - $35 per night.Kathmandu and Pokhara are obviously where the majority of
+      accommodation exists, and therefore the prices can be slightly higher than other parts of the country. Teahouses
+      and trekking lodges in the mountains cost very little, but due to the altitude and conditions they are very rudimentary.
+      Don't expect anything more than a wooden single bed, generally in a shared room.
+     If you’re travelling outside of high season, prices can drop, so always ask if any discount is applicable.</p>
+     <br>
+     <h3>Standard of Accommodation in Nepal</h3>
+     <p>On the whole, accommodation in Nepal is pretty standard, and similar to what you'll find throughout Asia.
+     Most places have a range of rooms, from budget to doubles with en-suite. It's worth noting that there's currently
+     no regulating body for accommodation in Nepal, so we recommend reading reviews very carefully. Beware that cheaper
+     accommodation can be of a really poor standard; if you’re backpacking, this might be okay, but otherwise, invest a
+     few extra dollars for something nicer.</p>
+    </div>
+  </section>
+  <br>
+    <div class="container">
+      <img class ="img1" src="Images/localhotel.jpeg" alt="Local Hotel in Nepal" height="400" width="540">
+      <img class ="img2" src="Images/hotel.jpeg" alt="A hotel in Nepal" height="400" width="540">
+    <br>
+    <br>
+    </div>
+
+    <br>
+    <footer class="page-footer font-small">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright VisitNepal
+        <!-- date and time on the footer -->
+        <div id='time'></div>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="js/firebase.js"></script>
+    <script src="js/imageChange.js"></script>
+    <script src ="js/datetime.js"></script>
+    <script src="js/signIn.js"></script>
+
+  </body>
+</html>
